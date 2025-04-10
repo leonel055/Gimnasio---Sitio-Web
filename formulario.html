@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario - Gimnasio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="index.html" target="_blank">
+        <img src="./assets/logo.png" alt="Logo del Gimnasio" />
+      </a>
+    </div>
+    <nav class="nav">
+      <ul class="menu">
+        <li class="has-submenu">
+          <a href="clases.html">Clases</a>
+          <div class="mega-menu">
+            <div class="mega-column">
+              <h4>Entrenamiento</h4>
+              <a href="clases.html">Musculación</a>
+              <a href="clases.html">CrossFit</a>
+              <a href="clases.html">Spinning</a>
+            </div>
+            <div class="mega-column">
+              <h4>Bienestar</h4>
+              <a href="clases.html">Yoga</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="entrenadores.html">Entrenadores</a></li>
+        <li><a href="precio.html">Precios</a></li>
+        <li><a href="formulario.html">Formulario-contacto</a></li>
+        <li><a href="BlogFitness.html">Blog Fitness</a></li>
+      </ul>
+    </nav>
+  </header>
+  <button id="toggle-dark-mode">🌙</button>
+  <script src="darkmode.js"></script>
+  <h1>Formulario</h1>
+  <section class="contacto">
+
+    <input type="checkbox" id="modal-toggle" hidden>
+
+    <form id="formulario-contacto">
+      <h2>Contáctanos</h2>
+
+      <div class="campo">
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+      </div>
+
+      <div class="campo">
+        <input type="email" name="email" id="email" placeholder="Correo Electrónico" required>
+      </div>
+
+      <div class="campo">
+        <textarea name="mensaje" id="mensaje" placeholder="Tu Mensaje" required></textarea>
+      </div>
+
+
+      <button type="submit" formaction="#modal-toggle" class="boton-enviar">
+        Enviar
+        <span class="spinner"></span>
+      </button>
+    </form>
+    <script src="formulario.js"></script>
+    <div class="modal">
+      <div class="modal-contenido">
+        <h2>¡Mensaje Enviado!</h2>
+        <p>Nos pondremos en contacto contigo pronto.</p>
+        <label for="modal-toggle" class="cerrar-modal">Cerrar</label>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="newsletter">
+        <h2>Suscríbete al Newsletter</h2>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Tu correo electrónico" required>
+          <button type="submit">Suscribirse</button>
+        </form>
+      </div>
+      <div class="social">
+        <h3>Seguinos</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="icono">
+            Facebook
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="icono">
+            Instagram
+          </a>
+        </div>
+      </div>
+
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5676340529477!2d-58.44855672426181!3d-34.614492858330735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7fd31f3b5b%3A0x6e2b4f1930df6b8b!2sParque%20Centenario!5e0!3m2!1ses-419!2sar!4v1688420553704!5m2!1ses-419!2sar"
+          width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Imperio Cross. Todos los derechos reservados.
+    </div>
+  </footer>
+
+</body>
+
+</html>

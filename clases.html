@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases - Gimnasio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+          <a href="index.html" target="_blank">
+            <img src="./assets/logo.png" alt="Logo del Gimnasio" />
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="menu">
+            <li class="has-submenu">
+              <a href="clases.html">Clases</a>
+              <div class="mega-menu">
+                <div class="mega-column">
+                  <h4>Entrenamiento</h4>
+                  <a href="clases.html">Musculación</a>
+                  <a href="clases.html">CrossFit</a>
+                  <a href="clases.html">Spinning</a>
+                </div>
+                <div class="mega-column">
+                  <h4>Bienestar</h4>
+                  <a href="clases.html">Yoga</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="entrenadores.html">Entrenadores</a></li>
+            <li><a href="precio.html">Precios</a></li>
+            <li><a href="formulario.html">Formulario-contacto</a></li>
+            <li><a href="BlogFitness.html">Blog Fitness</a></li>
+          </ul>
+        </nav>
+      </header>
+    <button id="toggle-dark-mode">🌙</button>
+    <script src="darkmode.js"></script>
+    <p></p>
+    <section class="clases-section">
+
+        <div class="filtros">
+
+            <input type="radio" name="filtro" id="todos" checked>
+            <input type="radio" name="filtro" id="musculacion">
+            <input type="radio" name="filtro" id="crossfit">
+            <input type="radio" name="filtro" id="yoga">
+            <input type="radio" name="filtro" id="spinning">
+
+            <div class="filtro-labels">
+                <label for="todos">Todos</label>
+                <label for="musculacion">Musculación</label>
+                <label for="crossfit">CrossFit</label>
+                <label for="yoga">Yoga</label>
+                <label for="spinning">Spinning</label>
+            </div>
+
+            <div class="galeria">
+                <div class="clase musculacion">
+                    <img src="assets/galeria/m1.png" alt="Musculación">
+                    <div class="overlay">
+                        <h3>Musculación</h3>
+                        <p>Potenciá tu fuerza.</p>
+                    </div>
+                </div>
+
+                <div class="clase crossfit">
+                    <img src="assets/galeria/c1.jpg" alt="CrossFit">
+                    <div class="overlay">
+                        <h3>CrossFit</h3>
+                        <p>Entrenamiento de alta intensidad.</p>
+                    </div>
+                </div>
+
+                <div class="clase yoga">
+                    <img src="assets/galeria/y1.jpg" alt="Yoga">
+                    <div class="overlay">
+                        <h3>Yoga</h3>
+                        <p>Conectá cuerpo y mente.</p>
+                    </div>
+                </div>
+
+                <div class="clase spinning">
+                    <img src="assets/galeria/s1.jpg" alt="Spinning">
+                    <div class="overlay">
+                        <h3>Spinning</h3>
+                        <p>Cardio sobre ruedas.</p>
+                    </div>
+                </div>
+                <div class="clase spinning">
+                    <img src="assets/galeria/s2.jpg" alt="Spinning">
+                    <div class="overlay">
+                        <h3>Spinning</h3>
+                        <p>Cardio sobre ruedas.</p>
+                    </div>
+                </div>
+                <div class="clase spinning">
+                    <img src="assets/galeria/s3.jpg" alt="Spinning">
+                    <div class="overlay">
+                        <h3>Spinning</h3>
+                        <p>Cardio sobre ruedas.</p>
+                    </div>
+                </div>
+                <div class="clase yoga">
+                    <img src="assets/galeria/y2.jpg" alt="Yoga">
+                    <div class="overlay">
+                        <h3>Yoga</h3>
+                        <p>Conectá cuerpo y mente.</p>
+                    </div>
+                </div>
+                <div class="clase yoga">
+                    <img src="assets/galeria/y3.jpg" alt="Yoga">
+                    <div class="overlay">
+                        <h3>Yoga</h3>
+                        <p>Conectá cuerpo y mente.</p>
+                    </div>
+                </div>
+                <div class="clase yoga">
+                    <img src="assets/galeria/y4.jpg" alt="Yoga">
+                    <div class="overlay">
+                        <h3>Yoga</h3>
+                        <p>Conectá cuerpo y mente.</p>
+                    </div>
+                </div>
+                <div class="clase musculacion">
+                    <img src="assets/galeria/m4.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>Musculación</h3>
+                        <p>Potenciá tu fuerza.</p>
+                    </div>
+                </div>
+                <div class="clase yoga">
+                    <img src="assets/galeria/y5.jpg" alt="Yoga">
+                    <div class="overlay">
+                        <h3>Yoga</h3>
+                        <p>Conectá cuerpo y mente.</p>
+                    </div>
+                </div>
+                <div class="clase crossfit">
+                    <img src="assets/galeria/c7.jpg" alt="CrossFit">
+                    <div class="overlay">
+                        <h3>CrossFit</h3>
+                        <p>Entrenamiento de alta intensidad</p>
+                    </div>
+                </div>
+                <div class="clase yoga">
+                    <img src="assets/galeria/y6.jpg" alt="Yoga">
+                    <div class="overlay">
+                        <h3>Yoga</h3>
+                        <p>Conectá cuerpo y mente.</p>
+                    </div>
+                </div>
+                <div class="clase spinning">
+                    <img src="assets/galeria/s4.jpg" alt="Spinning">
+                    <div class="overlay">
+                        <h3>Spinning</h3>
+                        <p>Cardio sobre ruedas.</p>
+                    </div>
+                </div>
+                <div class="clase yoga">
+                    <img src="assets/galeria/y7.jpg" alt="Yoga">
+                    <div class="overlay">
+                        <h3>Yoga</h3>
+                        <p>Conectá cuerpo y mente.</p>
+                    </div>
+                </div>
+                <div class="clase crossfit">
+                    <img src="assets/galeria/c8.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>CrossFit</h3>
+                        <p>Entrenamiento de alta intensidad</p>
+                    </div>
+                </div>
+                <div class="clase yoga">
+                    <img src="assets/galeria/y8.jpg" alt="Yoga">
+                    <div class="overlay">
+                        <h3>Yoga</h3>
+                        <p>Conectá cuerpo y mente.</p>
+                    </div>
+                </div>
+                <div class="clase yoga">
+                    <img src="assets/galeria/y9.jpg" alt="Yoga">
+                    <div class="overlay">
+                        <h3>Yoga</h3>
+                        <p>Conectá cuerpo y mente.</p>
+                    </div>
+                </div>
+                <div class="clase crossfit">
+                    <img src="assets/galeria/c9.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>CrossFit</h3>
+                        <p>Entrenamiento de alta intensidad</p>
+                    </div>
+                </div>
+                <div class="clase spinning">
+                    <img src="assets/galeria/s5.jpg" alt="Spinning">
+                    <div class="overlay">
+                        <h3>Spinning</h3>
+                        <p>Cardio sobre ruedas.</p>
+                    </div>
+                </div>
+                <div class="clase crossfit">
+                    <img src="assets/galeria/c10.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>CrossFit</h3>
+                        <p>Entrenamiento de alta intensidad</p>
+                    </div>
+                </div>
+                <div class="clase crossfit">
+                    <img src="assets/galeria/c2.jpg" alt="CrossFit">
+                    <div class="overlay">
+                        <h3>CrossFit</h3>
+                        <p>Entrenamiento de alta intensidad.</p>
+                    </div>
+                </div>
+                <div class="clase spinning">
+                    <img src="assets/galeria/s6.jpg" alt="Spinning">
+                    <div class="overlay">
+                        <h3>Spinning</h3>
+                        <p>Cardio sobre ruedas.</p>
+                    </div>
+                </div>
+                <div class="clase musculacion">
+                    <img src="assets/galeria/m9.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>Musculación</h3>
+                        <p>Potenciá tu fuerza.</p>
+                    </div>
+                </div>
+                <div class="clase spinning">
+                    <img src="assets/galeria/s7.jpg" alt="Spinning">
+                    <div class="overlay">
+                        <h3>Spinning</h3>
+                        <p>Cardio sobre ruedas.</p>
+                    </div>
+                </div>
+                <div class="clase crossfit">
+                    <img src="assets/galeria/c6.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>CrossFit</h3>
+                        <p>Entrenamiento de alta intensidad</p>
+                    </div>
+                </div>
+                <div class="clase musculacion">
+                    <img src="assets/galeria/m5.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>Musculación</h3>
+                        <p>Potenciá tu fuerza.</p>
+                    </div>
+                </div>
+                <div class="clase spinning">
+                    <img src="assets/galeria/s8.jpg" alt="Spinning">
+                    <div class="overlay">
+                        <h3>Spinning</h3>
+                        <p>Cardio sobre ruedas.</p>
+                    </div>
+                </div>
+                <div class="clase musculacion">
+                    <img src="assets/galeria/m3.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>Musculación</h3>
+                        <p>Potenciá tu fuerza.</p>
+                    </div>
+                </div>
+                <div class="clase spinning">
+                    <img src="assets/galeria/s9.jpg" alt="Spinning">
+                    <div class="overlay">
+                        <h3>Spinning</h3>
+                        <p>Cardio sobre ruedas.</p>
+                    </div>
+                </div>
+
+                <div class="clase musculacion">
+                    <img src="assets/galeria/m8.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>Musculación</h3>
+                        <p>Potenciá tu fuerza.</p>
+                    </div>
+                </div>
+                <div class="clase crossfit">
+                    <img src="assets/galeria/c3.jpg" alt="CrossFit">
+                    <div class="overlay">
+                        <h3>CrossFit</h3>
+                        <p>Entrenamiento de alta intensidad.</p>
+                    </div>
+                </div>
+                <div class="clase crossfit">
+                    <img src="assets/galeria/c5.jpg" alt="CrossFit">
+                    <div class="overlay">
+                        <h3>CrossFit</h3>
+                        <p>Entrenamiento de alta intensidad.</p>
+                    </div>
+                </div>
+                <div class="clase musculacion">
+                    <img src="assets/galeria/m2.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>Musculación</h3>
+                        <p>Potenciá tu fuerza.</p>
+                    </div>
+                </div>
+                <div class="clase musculacion">
+                    <img src="assets/galeria/m7.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>Musculación</h3>
+                        <p>Potenciá tu fuerza.</p>
+                    </div>
+                </div>
+                <div class="clase crossfit">
+                    <img src="assets/galeria/c4.jpg" alt="CrossFit">
+                    <div class="overlay">
+                        <h3>CrossFit</h3>
+                        <p>Entrenamiento de alta intensidad.</p>
+                    </div>
+                </div>
+                <div class="clase musculacion">
+                    <img src="assets/galeria/m6.jpg" alt="Musculación">
+                    <div class="overlay">
+                        <h3>Musculación</h3>
+                        <p>Potenciá tu fuerza.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="horarios">
+        <h2>Horarios Semanales</h2>
+        <div class="tabla-responsiva">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Musculación</th>
+                        <th>CrossFit</th>
+                        <th>Yoga</th>
+                        <th>Spinning</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>07:30 - 10:00</td>
+                        <td>10:00 - 11:00</td>
+                        <td>14:00 - 15:00</td>
+                        <td>18:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>08:00 - 11:00</td>
+                        <td>11:00 - 12:00</td>
+                        <td>15:00 - 16:00</td>
+                        <td>19:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08:00 - 10:00</td>
+                        <td>09:00 - 11:00</td>
+                        <td>14:00 - 15:00</td>
+                        <td>17:00 - 21:00</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>07:30 - 10:00</td>
+                        <td>10:00 - 11:00</td>
+                        <td>14:00 - 15:00</td>
+                        <td>18:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08:00 - 13:00</td>
+                        <td>11:00 - 11:00</td>
+                        <td>14:00 - 17:00</td>
+                        <td>18:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sabado</td>
+                        <td>08:00 - 10:00</td>
+                        <td>10:00 - 11:00</td>
+                        <td>14:00 - 15:00</td>
+                        <td>18:00 - 19:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="newsletter">
+                <h2>Suscríbete al Newsletter</h2>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+            <div class="social">
+                <h3>Seguinos</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="icono">
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"
+                            class="icono">
+                        Instagram
+                    </a>
+                </div>
+            </div>
+
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5676340529477!2d-58.44855672426181!3d-34.614492858330735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7fd31f3b5b%3A0x6e2b4f1930df6b8b!2sParque%20Centenario!5e0!3m2!1ses-419!2sar!4v1688420553704!5m2!1ses-419!2sar"
+                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Imperio Cross. Todos los derechos reservados.
+        </div>
+    </footer>
+</body>
+
+</html>
